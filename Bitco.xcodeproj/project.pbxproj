@@ -13,6 +13,8 @@
 		55BC3CD1286488E700A79D05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BC3CCF286488E700A79D05 /* Main.storyboard */; };
 		55BC3CD3286488E900A79D05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55BC3CD2286488E900A79D05 /* Assets.xcassets */; };
 		55BC3CD6286488E900A79D05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BC3CD4286488E900A79D05 /* LaunchScreen.storyboard */; };
+		55BC3CDE2864890600A79D05 /* CryptoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC3CDD2864890600A79D05 /* CryptoManager.swift */; };
+		55BC3CE328648E5800A79D05 /* background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 55BC3CE228648E5800A79D05 /* background.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		55BC3CD2286488E900A79D05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55BC3CD5286488E900A79D05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55BC3CD7286488E900A79D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55BC3CDD2864890600A79D05 /* CryptoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoManager.swift; sourceTree = "<group>"; };
+		55BC3CE228648E5800A79D05 /* background.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = background.pdf; path = ../../../../../background.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +62,39 @@
 			children = (
 				55BC3CC9286488E700A79D05 /* AppDelegate.swift */,
 				55BC3CCB286488E700A79D05 /* SceneDelegate.swift */,
-				55BC3CCD286488E700A79D05 /* ViewController.swift */,
-				55BC3CCF286488E700A79D05 /* Main.storyboard */,
+				55BC3CDF2864891000A79D05 /* Model */,
+				55BC3CE02864891A00A79D05 /* View */,
+				55BC3CE12864892300A79D05 /* Controller */,
 				55BC3CD2286488E900A79D05 /* Assets.xcassets */,
 				55BC3CD4286488E900A79D05 /* LaunchScreen.storyboard */,
 				55BC3CD7286488E900A79D05 /* Info.plist */,
+				55BC3CE228648E5800A79D05 /* background.pdf */,
 			);
 			path = Bitco;
+			sourceTree = "<group>";
+		};
+		55BC3CDF2864891000A79D05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55BC3CDD2864890600A79D05 /* CryptoManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55BC3CE02864891A00A79D05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55BC3CCF286488E700A79D05 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55BC3CE12864892300A79D05 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55BC3CCD286488E700A79D05 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +157,7 @@
 			files = (
 				55BC3CD6286488E900A79D05 /* LaunchScreen.storyboard in Resources */,
 				55BC3CD3286488E900A79D05 /* Assets.xcassets in Resources */,
+				55BC3CE328648E5800A79D05 /* background.pdf in Resources */,
 				55BC3CD1286488E700A79D05 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +171,7 @@
 			files = (
 				55BC3CCE286488E700A79D05 /* ViewController.swift in Sources */,
 				55BC3CCA286488E700A79D05 /* AppDelegate.swift in Sources */,
+				55BC3CDE2864890600A79D05 /* CryptoManager.swift in Sources */,
 				55BC3CCC286488E700A79D05 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
