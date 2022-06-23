@@ -39,7 +39,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="center" axis="vertical" distribution="equalCentering" alignment="center" spacing="-20" translatesAutoresizingMaskIntoConstraints="NO" id="e9n-Wu-MqZ" userLabel="Value / Currency">
-                                <rect key="frame" x="82.666666666666657" y="354" width="262.66666666666674" height="170"/>
+                                <rect key="frame" x="82.666666666666657" y="204" width="262.66666666666674" height="170"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1000,00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OfX-0c-vJ5">
                                         <rect key="frame" x="49.999999999999986" y="20" width="162.66666666666663" height="80"/>
@@ -70,7 +70,10 @@
                                 </userDefinedRuntimeAttributes>
                             </stackView>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BaO-RF-vZC">
-                                <rect key="frame" x="30" y="606" width="368" height="216"/>
+                                <rect key="frame" x="30" y="572" width="368" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="7go-D8-BIe"/>
+                                </constraints>
                             </pickerView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -82,7 +85,7 @@
                             <constraint firstItem="g1K-YO-FzO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PuE-5h-dI1"/>
                             <constraint firstItem="qzX-q8-kqV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Y63-YA-XzH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BaO-RF-vZC" secondAttribute="bottom" constant="70" id="biI-Ta-NPo"/>
-                            <constraint firstItem="e9n-Wu-MqZ" firstAttribute="top" secondItem="g1K-YO-FzO" secondAttribute="bottom" constant="210" id="jjY-0K-P2R"/>
+                            <constraint firstItem="e9n-Wu-MqZ" firstAttribute="top" secondItem="g1K-YO-FzO" secondAttribute="bottom" constant="60" id="jjY-0K-P2R"/>
                             <constraint firstItem="e9n-Wu-MqZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kmB-Qo-uj6"/>
                             <constraint firstItem="qzX-q8-kqV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="wrX-7s-nfu"/>
                             <constraint firstItem="BaO-RF-vZC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="xv4-jL-rXv"/>
