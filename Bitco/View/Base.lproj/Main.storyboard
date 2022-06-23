@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Crypto View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Bitco" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="CryptoViewController" customModule="Bitco" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -90,6 +90,11 @@
                             <constraint firstItem="g1K-YO-FzO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="zhi-jF-JsV"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="currencyLabel" destination="uy3-2n-xL7" id="iAb-4E-ka8"/>
+                        <outlet property="currencyPicker" destination="BaO-RF-vZC" id="XBE-VV-Dmu"/>
+                        <outlet property="priceLabel" destination="OfX-0c-vJ5" id="PM4-Dp-Ecc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
