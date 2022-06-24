@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		55BC3CC6286488E700A79D05 /* Bitco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bitco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55BC3CC6286488E700A79D05 /* CoinCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BC3CC9286488E700A79D05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55BC3CCB286488E700A79D05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		55BC3CCD286488E700A79D05 /* CryptoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		55BC3CC7286488E700A79D05 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55BC3CC6286488E700A79D05 /* Bitco.app */,
+				55BC3CC6286488E700A79D05 /* CoinCo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,9 +106,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		55BC3CC5286488E700A79D05 /* Bitco */ = {
+		55BC3CC5286488E700A79D05 /* CoinCo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55BC3CDA286488E900A79D05 /* Build configuration list for PBXNativeTarget "Bitco" */;
+			buildConfigurationList = 55BC3CDA286488E900A79D05 /* Build configuration list for PBXNativeTarget "CoinCo" */;
 			buildPhases = (
 				55BC3CC2286488E700A79D05 /* Sources */,
 				55BC3CC3286488E700A79D05 /* Frameworks */,
@@ -118,9 +118,9 @@
 			);
 			dependencies = (
 			);
-			name = Bitco;
+			name = CoinCo;
 			productName = Bitco;
-			productReference = 55BC3CC6286488E700A79D05 /* Bitco.app */;
+			productReference = 55BC3CC6286488E700A79D05 /* CoinCo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -151,7 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				55BC3CC5286488E700A79D05 /* Bitco */,
+				55BC3CC5286488E700A79D05 /* CoinCo */,
 			);
 		};
 /* End PBXProject section */
@@ -256,6 +256,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -310,6 +311,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -328,11 +330,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Bitco/Info.plist;
+				INFOPLIST_FILE = CoinCo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = CoinCo;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -340,7 +343,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.the-ounce.Bitco";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.the-ounce.CoinCo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -356,11 +359,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Bitco/Info.plist;
+				INFOPLIST_FILE = CoinCo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = CoinCo;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -368,7 +372,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.the-ounce.Bitco";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.the-ounce.CoinCo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -388,7 +392,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55BC3CDA286488E900A79D05 /* Build configuration list for PBXNativeTarget "Bitco" */ = {
+		55BC3CDA286488E900A79D05 /* Build configuration list for PBXNativeTarget "CoinCo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				55BC3CDB286488E900A79D05 /* Debug */,
