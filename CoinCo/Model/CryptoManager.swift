@@ -16,13 +16,15 @@ struct CryptoManager {
     
     var delegate: CryptoManagerDelegate?
     
-    let baseURL = "https://rest.coinapi.io/v1/exchangerate/BTC"
+    let baseURL = "https://rest.coinapi.io/v1/exchangerate"
     let apiKey = "E86DBD9C-EA24-433C-B53A-205246451AF4"
+    
+    let coinsArray = ["BTC","DOGE","ETH","LTC","XMR","XRP","XVG","ZEC"]
     
     let currencyArray = ["AUD","BRL","CAD","CNY","EUR","GBP","HKD","IDR","ILS","INR","JPY","MXN","NOK","NZD","PLN","RON","SEK","SGD","UAH","USD","ZAR"]
     
-    func getCoinPrice(for currency: String) {
-        let urlString = "\(baseURL)/\(currency)?apikey=\(apiKey)"
+    func getCoinPrice(for coin: String, in currency: String) {
+        let urlString = "\(baseURL)/\(coin)/\(currency)?apikey=\(apiKey)"
         performRequest(with: urlString)
     }
     

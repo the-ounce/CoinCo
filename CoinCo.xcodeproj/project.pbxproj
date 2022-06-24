@@ -48,7 +48,7 @@
 		55BC3CBD286488E700A79D05 = {
 			isa = PBXGroup;
 			children = (
-				55BC3CC8286488E700A79D05 /* Bitco */,
+				55BC3CC8286488E700A79D05 /* CoinCo */,
 				55BC3CC7286488E700A79D05 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		55BC3CC8286488E700A79D05 /* Bitco */ = {
+		55BC3CC8286488E700A79D05 /* CoinCo */ = {
 			isa = PBXGroup;
 			children = (
 				55BC3CC9286488E700A79D05 /* AppDelegate.swift */,
@@ -74,7 +74,7 @@
 				55BC3CD7286488E900A79D05 /* Info.plist */,
 				55BC3CE228648E5800A79D05 /* background.pdf */,
 			);
-			path = Bitco;
+			path = CoinCo;
 			sourceTree = "<group>";
 		};
 		55BC3CDF2864891000A79D05 /* Model */ = {
@@ -138,7 +138,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 55BC3CC1286488E700A79D05 /* Build configuration list for PBXProject "Bitco" */;
+			buildConfigurationList = 55BC3CC1286488E700A79D05 /* Build configuration list for PBXProject "CoinCo" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -329,6 +329,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Bitco/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CoinCo;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -356,6 +357,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Bitco/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CoinCo;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -377,7 +379,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		55BC3CC1286488E700A79D05 /* Build configuration list for PBXProject "Bitco" */ = {
+		55BC3CC1286488E700A79D05 /* Build configuration list for PBXProject "CoinCo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				55BC3CD8286488E900A79D05 /* Debug */,
