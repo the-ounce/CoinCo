@@ -1,4 +1,4 @@
-# Project Title
+# CoinCo
 
 Check current cryptocurrency rates with <b>Coin</b>Co easily.
 
